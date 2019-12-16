@@ -1,0 +1,44 @@
+{
+  "name": "enface-auth-node-enfaceid",
+  "version": "1.0.0",
+  "description": "Enface Pay +ID biometric authorization library for Node.js environment",
+  "author": "Enface LTD",
+  "license": "MIT",
+  "main": "./dist/enface.auth.node.enfaceid.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safead/enface-auth-node-enfaceid.git"
+  },
+  "keywords": [
+    "enface",
+    "authorization",
+    "blockchain",
+    "sdk"
+  ],
+  "bugs": {
+    "url": "https://github.com/safead/enface-auth-node-enfaceid/issues"
+  },
+  "homepage": "https://enface.io",
+  "dependencies": {
+    "uuid": "^3.3.3",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.7.2",
+    "terser-webpack-plugin": "^2.3.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  }
+}
